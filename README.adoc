@@ -4,8 +4,8 @@ In this README, I will be briefly summarize on what the server does and what are
 a specific HTTP request. For deeper understanding of the Boggle Server, please refer to the code as there are comments to explain the mechanisms of the different lines of code.
 
 ## Prerequisite
-The request sent to the Boggle Server must be of json content, else the server will reject the request.
-There should be two internal test_board.txt and dictionary.txt files already existing within the server.
+* The request sent to the Boggle Server must be of json content, else the server will reject the request.
+* There should be two internal test_board.txt and dictionary.txt files already existing within the server.
 
 ## Set up the Server
 
