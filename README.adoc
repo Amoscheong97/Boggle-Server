@@ -22,7 +22,7 @@ Starting httpd on port 9000...
 From here on, the server will wait for HTTP requests.
 
 ## How the server works
-There are 3 HTTP requests that the game handles: POST, PUT, GET. There are three methods to handle the requests: do_POST(self), do_GET(self), do_PUT(self).
+There are 3 HTTP requests that the game handles: POST, PUT, GET. There are three methods to handle the requests: `do_POST(self)`, `do_GET(self)`, `do_PUT(self)`
 
 The following code is shared by all three requests, where it will reject any non-JSON content: 
 
